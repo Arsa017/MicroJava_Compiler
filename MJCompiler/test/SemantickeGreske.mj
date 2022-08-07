@@ -1,0 +1,42 @@
+program MojProgram
+
+	const char cnst1 = 'e', cnst2 = 2;	// nekompatibilni tip konstanti
+	const int jedan = 1;
+	
+	int a, niz[];
+
+	char nizch[];
+	char a, c;		// dupla definicija promenljice
+	bool b;
+	int b, c;
+	
+{
+	void main() 
+		char tmp;
+	{
+		k = 0;				// 	koriscenje nedefinisane promenljive
+		
+		nizch[jedan] = 1;	// nekompatibilni tip u dodeli vrednosti
+		
+		a[1] = 5;			// promenljiva nije tipa niz
+		
+		niz[cnst1] = a;		// indeks niza nije tipa Int
+		
+		niz = new int[c];	// -||-
+		nizch = new niz[2];	// ne postoje elementi tipa niz
+		
+		jedan++;
+		c++;				// operacija inc/dec moguca samo za promenljive i elemente niza koji su tipa int
+		c--;
+		
+		cnst1 = 'o';		// konstanta ne moze da ucestvuje u izrazima za dodelu vrednosti;
+		
+		read(cnst1);		//	argument read-a mora da bude promenljiva ili element niza
+		
+		print(main);		//	argument read-a mora da bude promenljiva ili element niza
+		
+		goto labela;		//  skok na nedefinisanu labelu
+							
+	}
+	
+} 

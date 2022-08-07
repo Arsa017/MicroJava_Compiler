@@ -1,0 +1,13 @@
+program MojTest
+
+	int tmp1, , tmp2; 	// oporavak do ,
+	char 5; 		// oporavak do ;
+	
+	int niz[], 5, ,b;
+
+{
+	void main() {
+		tmp1 =  ;		// Oporavak do ;
+		d+++ 452; 	// Oporavak do ;
+	}
+}
